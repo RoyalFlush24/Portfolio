@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Ahmed Cherif / Full-Stack Ninja</title>
+      <link rel="stylesheet" href="codes.css">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <!--the container for my entire page-->
+      <div class="container">
+        <!--header-->
+        <header class="main-header row">
+          <img src="http://farm5.staticflickr.com/4407/36611151791_e716fd985a_b.jpg" alt="profile-image">
+          <div class="name-title">
+            <h1>Nuri Cherif</h1>
+            <h2>Full-Stack Ninja</h2>
+          </div>
+        </header>
+        <!--main profile image-->
+        <div class="main-image">
+          <img src="http://farm5.staticflickr.com/4404/35938661933_c2a80b33f2_b.jpg" alt="Sun-Rise">
+        </div>
+        <!--containes all the elements for my featured-work images and texts-->
+        <section class="featured-work">
+          <h2>Featured Work</h2>
+          <!--container for my featured-work images-->
+          <div class="row">
+            <!--image 1-->
+            <div class="image-1">
+              <div class="good-work">
+                <img src="http://farm5.staticflickr.com/4336/36657368986_fd3ed13dbc_b.jpg" alt="a dream">
+              </div>
+              <h3>Spring-Travel</h3>
+              <p>
+                <a href="https://github.com/udacity/Spring-Travel/">https://github.com/udacity/Spring=Travel/</a>
+              </p>
+            </div>
+            <!--image 2-->
+            <div class="image-2">
+              <div class="good-work">
+                <img src="http://farm5.staticflickr.com/4384/36703307775_72e646c2f8_b.jpg"
+                     srcset="http://farm5.staticflickr.com/4384/36703307775_72e646c2f8_b.jpg 400w
+                              http://farm5.staticflickr.com/4384/36703307775_72e646c2f8_b.jpg 600w
+                              http://farm5.staticflickr.com/4384/36703307775_72e646c2f8_b.jpg 800w"
+                     sizes="100vw"          
+                     alt="night light">
+              </div>
+              <h3>Night-Light</h3>
+              <p>
+                <a href="https://github.com/udacity/Night-Light/">https://github.com/udacity/Night-Light/</a>
+              </p>
+            </div>
+            <!--image 3-->
+            <div class="image-3">
+              <div class="good-work">
+                <img src="http://farm5.staticflickr.com/4337/36657388496_291e15a4c4_b.jpg" alt="Sky-Colors">
+              </div>
+              <h3>Sky-Colors</h3>
+              <p>
+                <a href="https://github.com/udacity/Sky-Colors/">https://github.com/udacity/Sky-Colors/</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </body>
+</html>
